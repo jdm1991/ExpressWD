@@ -1,23 +1,32 @@
 import "../styles/header.css";
+import Link from "next/link";
 
 export default function Header() {
   return (
     <>
       <div className="header-container">
-        <div>Home</div>
+        <div className="sub-container">
+        <div className="home">
+          <Link href="/">Home</Link>
+        </div>
         <div className="about-container">
-          <a href="#about-a">
-            <div>About</div>
-          </a>
+          <div className="about">
+            <Link href="/about">About</Link>
+          </div>
         </div>
         <a href="#services-a">
-          <div>Services</div>
+          <div className="services">Services</div>
         </a>
-        <div>Portfolio</div>
-        <div>Prices</div>
+        <div className="portfolio">
+          <Link href="/portfolio">Portfolio</Link>
+        </div>
+        <div className="prices">
+          <Link href="/prices">Prices</Link>
+        </div>
         <a href="#contact-a">
-          <div>Contact</div>
+          <div className="contact">Contact</div>
         </a>
+        </div>
       </div>
     </>
   );
