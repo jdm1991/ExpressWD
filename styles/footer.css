@@ -7,6 +7,8 @@
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   list-style: none;
   text-decoration: none;
+  box-sizing: border-box;
+  
 }
 footer {
   background-color: #111010;
@@ -16,6 +18,7 @@ footer {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   grid-gap: 2rem;
+  height: 55vh;
 }
 footer .app-name {
   color: white;
@@ -31,9 +34,10 @@ footer .app-name {
 footer .app-info p {
   color: white;
   padding-left: 1.65rem;
+  line-height: 3;
 }
 footer .footer-title {
-  font-size: 1.25rem;
+  font-size: 2rem;
   line-height: 1.75rem;
   color: white;
   border-left: 4px solid #A37E2C;
@@ -44,7 +48,7 @@ footer ul {
   padding-left: 1.75rem;
   color: white;
   font-size: 0.875rem;
-  line-height: 1.25rem;
+  line-height: 1.8rem;
   margin-top: 0.5rem;
 }
 footer ul li {
@@ -74,7 +78,7 @@ footer .cr-con {
 .g-i-t form {
   display: flex;
   flex-direction: column;
-  margin-top: 1rem;
+  margin-bottom: 7rem;
   --tw-space-y-reverse: 0;
 }
 form .g-inp {
