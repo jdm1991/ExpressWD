@@ -10,8 +10,8 @@ export default function Header() {
       <Image
             src="/Images/logo.svg"
             alt="Pic2"
-            width={300}
-            height={300}
+            width={0}
+            height={0}
             className="logo-image"
           />
         <div className="sub-container">
