@@ -22,14 +22,14 @@ footer {
 }
 footer .app-name {
   color: white;
-  border-left: 4px solid #A37E2C;
+  border-left: 4px solid #ffcf40;
   padding-left: 1.5rem;
   font-size: 1.875rem;
   line-height: 2.25rem;
   font-weight: 700;
 }
 .app-name .app-initial {
-  color: #A37E2C;
+  color: #ffcf40;
 }
 footer .app-info p {
   color: white;
@@ -40,7 +40,7 @@ footer .footer-title {
   font-size: 2rem;
   line-height: 1.75rem;
   color: white;
-  border-left: 4px solid #A37E2C;
+  border-left: 4px solid #ffcf40;
   padding-left: 1.5rem;
   height: fit-content;
 }
@@ -97,5 +97,5 @@ form .g-inp {
 }
 
 .f-btn:hover {
-background-color: #A37E2C;
+background-color: #ffcf40;
 }
