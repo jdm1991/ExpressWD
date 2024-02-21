@@ -1,10 +1,19 @@
 import "../styles/header.css";
 import Link from "next/link";
+import Image from 'next/image';
+
 
 export default function Header() {
   return (
     <>
       <div className="header-container">
+      <Image
+            src="/Images/logo.svg"
+            alt="Pic2"
+            width={300}
+            height={300}
+            className="logo-image"
+          />
         <div className="sub-container">
         <div className="home">
           <Link href="/">Home</Link>
