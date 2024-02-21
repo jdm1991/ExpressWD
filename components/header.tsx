@@ -41,6 +41,13 @@ export default function Header() {
       <nav>
       <div className="navbar">
         <div className="container nav-container">
+        <Image
+            src="/Images/logo.svg"
+            alt="Pic2"
+            width={0}
+            height={0}
+            className="logo-image"
+          />
             <input className="checkbox" type="checkbox" name="" id="" />
             <div className="hamburger-lines">
               <span className="line line1"></span>
