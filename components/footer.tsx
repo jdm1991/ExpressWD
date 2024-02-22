@@ -1,5 +1,5 @@
 import "../styles/footer.css";
-import "../styles/media.css";
+import "../styles/footermedia.css";
 import Link from "next/link";
 import Image from 'next/image';
 
