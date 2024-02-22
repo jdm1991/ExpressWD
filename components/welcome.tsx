@@ -16,7 +16,10 @@ export default function Welcome() {
         className="design-image"
       />
       <div className="twelve">
-        <h2 className="h2-welcome">Need a website? We design and develop</h2>
+        <h2 className="h2-welcome">
+          Need a website?
+          <div className="h2-sub">We design and develop</div>
+        </h2>
         <hr className="hr-welcome"></hr>
         <p className="what-we-do">
           With 3 years of expertise, Express Web Designs wont let you down. We
@@ -30,38 +33,38 @@ export default function Welcome() {
       <div className="thirteen">
         <h3 className="clients">What our clients say about us!</h3>
         <div className="carousel-container">
-        <Carousel >
-          <div>
-            <Image
-              src="/Images/web1.jpg"
-              alt="Pic2"
-              width={200}
-              height={200}
-              className="carousel"
-            />
-            <p className="legend">Legend 1</p>
-          </div>
-          <div>
-            <Image
-              src="/Images/web1.jpg"
-              alt="Pic2"
-              width={200}
-              height={200}
-              className="carousel"
-            />
-            <p className="legend">Legend 2</p>
-          </div>
-          <div>
-            <Image
-              src="/Images/web1.jpg"
-              alt="Pic2"
-              width={200}
-              height={200}
-              className="carousel"
-            />
-            <p className="legend">Legend 3</p>
-          </div>
-        </Carousel>
+          <Carousel autoPlay interval={4000} infiniteLoop>
+            <div>
+              <Image
+                src="/Images/web1.jpg"
+                alt="Pic2"
+                width={200}
+                height={200}
+                className="carousel"
+              />
+              <p className="legend">Legend 1</p>
+            </div>
+            <div>
+              <Image
+                src="/Images/web1.jpg"
+                alt="Pic2"
+                width={200}
+                height={200}
+                className="carousel"
+              />
+              <p className="legend">Legend 2</p>
+            </div>
+            <div>
+              <Image
+                src="/Images/web1.jpg"
+                alt="Pic2"
+                width={200}
+                height={200}
+                className="carousel"
+              />
+              <p className="legend">Legend 3</p>
+            </div>
+          </Carousel>
         </div>
       </div>
     </>
