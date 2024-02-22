@@ -45,9 +45,10 @@
 }
 
 .thirteen {
-  background-color: #255036;
+  background: #255036;
+  border-radius: 200px 200px 200px 200px; 
   color: #ffcf40;
-  height: 65vh;
+  height: 85vh;
 }
 
 .clients {
