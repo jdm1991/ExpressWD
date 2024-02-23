@@ -1,0 +1,56 @@
+@media screen and (max-width: 1350px) {
+    .sub-container {
+        display: flex;
+        gap: 30px;
+        margin: 3rem 3rem 6rem 0rem;
+        font-size: 2.1rem;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .navbar {
+        display: flex;
+        justify-content: space-around; 
+        align-items: center; 
+        height: 12vh;
+        margin-top: 0;
+        padding-top: 0;
+    }
+    
+    .header-container {
+        display: none;
+    }
+
+    .hamburger-logo {
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 0.5rem;
+            height: 8rem;
+            margin-bottom: 1rem;
+        } 
+        
+    .hamburger-icon {
+        margin-top: 0;
+    }
+
+    .logo-image{
+        position: absolute;
+        top: -160px;
+        left: 0px;
+        height: 400px;
+        width: 400px;
+    }
+
+}
+
+@media screen and (max-width:451px){
+  
+    .logo-image{
+        position: absolute;
+        top: -110px;
+        left: 0px;
+        height: 300px;
+        width: 300px;
+    }
+
+}

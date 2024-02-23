@@ -1,0 +1,81 @@
+@media screen and (max-width: 1200px) {
+    .f-item-con {
+        grid-gap: 10rem;
+      }
+      footer ul {
+        line-height: 2rem;
+      }
+
+      .socials ul li {
+        margin: 1rem 0rem 0rem 0rem ;
+      }
+      
+      .socials-titles {
+        line-height: 2rem;
+      }
+}
+
+@media screen and (max-width: 700px) {
+    .f-item-con {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        grid-template-rows: repeat(1, minmax(0, 1fr));
+        row-gap: 20rem ;
+        column-gap: 2rem;
+        justify-content: center;
+      }
+      .useful-links, .help-sec, .socials {
+        width: 100%; 
+        text-align: center;
+    }
+    .useful-links ul, .help-sec ul, .socials ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+      .socials ul li {
+        justify-content: center;
+      }
+      
+      .socials-titles {
+       justify-content: center;
+        height: fit-content;
+      }
+      .disclaimer-notice {
+        margin-top: 20rem ;
+      }
+      
+      .disclaimer {
+        color: white;
+        font-size: 0.675rem;
+        line-height: 1.8rem;
+        text-align: center;
+        margin: 1rem 5rem 2rem 5rem;;
+      }
+}
+@media screen and (max-width: 451px) {
+    .f-item-con {
+        display: flex;
+        flex-direction: column;
+        grid-gap: 5rem; /* Remove the gap if it's not needed */
+        margin-top: 17rem;
+    }
+
+    .f-item-con .footer-title, .socials-titles {
+        margin-bottom: 1rem;
+        margin-left: 0;
+        padding-left: 0;
+    }
+    
+    .disclaimer {
+        color: white;
+        font-size: 0.675rem;
+        line-height: 1.8rem;
+        text-align: center;
+        margin: 1rem 2rem 2rem 2rem;
+      }
+
+    
+  }

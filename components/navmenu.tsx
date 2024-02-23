@@ -54,10 +54,10 @@ const components: { title: string; href: string; description: string }[] = [
 
 export default function NavMenu() {
   return (
-    <NavigationMenu>
-      <NavigationMenuList>
-        <NavigationMenuItem>
-          <NavigationMenuTrigger>Getting started</NavigationMenuTrigger>
+    <NavigationMenu className="bg-[#255036]">
+      <NavigationMenuList className="bg-[#255036]">
+        <NavigationMenuItem className="bg-[#255036]">
+          <NavigationMenuTrigger className="bg-[#255036] text-[#ffcf40]">Getting started</NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="grid gap-3 p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
               <li className="row-span-3">
@@ -89,7 +89,7 @@ export default function NavMenu() {
           </NavigationMenuContent>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <NavigationMenuTrigger>Services</NavigationMenuTrigger>
+          <NavigationMenuTrigger className="bg-[#255036] text-[#ffcf40]">Services</NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
               {components.map((component) => (
@@ -104,13 +104,7 @@ export default function NavMenu() {
             </ul>
           </NavigationMenuContent>
         </NavigationMenuItem>
-        <NavigationMenuItem>
-          <Link href="/docs" legacyBehavior passHref>
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              Contact
-            </NavigationMenuLink>
-          </Link>
-        </NavigationMenuItem>
+
       </NavigationMenuList>
     </NavigationMenu>
   );
