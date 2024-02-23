@@ -31,7 +31,7 @@ export default function Header() {
           <Link href="/portfolio">Portfolio</Link>
         </div>
         <div className="prices">
-          <Link href="/prices">Prices</Link>
+        <a href="#section1">Prices</a>
         </div>
         <a href="#contact-a">
           <div className="contact">Contact</div>

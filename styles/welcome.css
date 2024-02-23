@@ -209,12 +209,6 @@
   margin: 0 auto;
   margin-top: 3rem;
 }
-.thirteen {
-  background: #255036;
-  border-radius: 0px 0px 400px 400px;
-  color: #ffcf40;
-  height: 90vh;
-}
 
 .clients {
   display: flex;
@@ -225,9 +219,3 @@
   padding-top: 1rem;
 }
 
-.carousel-container {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  margin-top: 1rem;
-}

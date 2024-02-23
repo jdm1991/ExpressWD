@@ -12,6 +12,8 @@ import { IoBuildOutline } from "react-icons/io5";
 import { MdOutlineRocketLaunch } from "react-icons/md";
 import { BiSupport } from "react-icons/bi";
 import { FaLongArrowAltDown } from "react-icons/fa";
+import testimonials from "../components/testimonials";
+import Testimonials from "../components/testimonials";
 
 export default function Welcome() {
   const [isVisible, setIsVisible] = useState(false);
@@ -177,43 +179,7 @@ export default function Welcome() {
           <button className="quote">GET YOUR FREE QUOTE</button>
         </div>
       </div>
-      <div className="thirteen">
-        <h3 className="clients">What our clients say about us!</h3>
-        <div className="carousel-container">
-          <Carousel autoPlay interval={4000} infiniteLoop>
-            <div>
-              <Image
-                src="/Images/web1.jpg"
-                alt="Pic2"
-                width={200}
-                height={200}
-                className="carousel"
-              />
-              <p className="legend">Legend 1</p>
-            </div>
-            <div>
-              <Image
-                src="/Images/web1.jpg"
-                alt="Pic2"
-                width={200}
-                height={200}
-                className="carousel"
-              />
-              <p className="legend">Legend 2</p>
-            </div>
-            <div>
-              <Image
-                src="/Images/web1.jpg"
-                alt="Pic2"
-                width={200}
-                height={200}
-                className="carousel"
-              />
-              <p className="legend">Legend 3</p>
-            </div>
-          </Carousel>
-        </div>
-      </div>
+      
     </>
   );
 }

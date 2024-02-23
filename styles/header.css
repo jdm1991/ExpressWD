@@ -5,10 +5,14 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: Roboto, Helvetica Neue, Arial;
+    scroll-behavior: smooth;
 }
 
 .header-container {
     display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 2;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-end;
