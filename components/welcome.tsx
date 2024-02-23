@@ -4,6 +4,7 @@ import { Carousel } from "react-responsive-carousel";
 import { useState, useEffect, useRef } from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Image from "next/image";
+import { FaArrowDown } from "react-icons/fa";
 
 export default function Welcome() {
   const [isVisible, setIsVisible] = useState(false);
@@ -68,6 +69,9 @@ export default function Welcome() {
           businesses, to blue chip companies, e-commerce websites and charity
           organisations.
         </p>
+        <div className="arrow">
+        <FaArrowDown />
+        </div>
       </div>
       <div
         className={`working-with-us ${isVisible ? "animate-slide-up" : ""}`}
