@@ -5,6 +5,13 @@ import { useState, useEffect, useRef } from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Image from "next/image";
 import { FaArrowDown } from "react-icons/fa";
+import { FaPenFancy } from "react-icons/fa";
+import { FaSearch } from "react-icons/fa";
+import { IoCreateOutline } from "react-icons/io5";
+import { IoBuildOutline } from "react-icons/io5";
+import { MdOutlineRocketLaunch } from "react-icons/md";
+import { BiSupport } from "react-icons/bi";
+import { FaLongArrowAltDown } from "react-icons/fa";
 
 export default function Welcome() {
   const [isVisible, setIsVisible] = useState(false);
@@ -54,6 +61,64 @@ export default function Welcome() {
           world.
         </p>
         <button className="welcome-button">Let's talk</button>
+        <div className="icons">
+          <div className="icon-group">
+            <div className="icon-arrow">
+              <FaPenFancy />
+              <div className="small-arrow">
+                <FaLongArrowAltDown />
+              </div>
+            </div>
+            <p className="text">Sign Up</p>
+          </div>
+
+          <div className="icon-group">
+            <div className="icon-arrow">
+              <FaSearch />
+              <div className="small-arrow">
+                <FaLongArrowAltDown />
+              </div>
+            </div>
+            <p className="text">Research</p>
+          </div>
+
+          <div className="icon-group">
+            <div className="icon-arrow">
+              <IoCreateOutline />
+              <div className="small-arrow">
+                <FaLongArrowAltDown />
+              </div>
+            </div>
+            <p className="text">Design</p>
+          </div>
+
+          <div className="icon-group">
+            <div className="icon-arrow">
+              <IoBuildOutline />
+              <div className="small-arrow">
+                <FaLongArrowAltDown />
+              </div>
+            </div>
+            <p className="text">Build</p>
+          </div>
+
+          <div className="icon-group">
+            <div className="icon-arrow">
+              <MdOutlineRocketLaunch />
+              <div className="small-arrow">
+                <FaLongArrowAltDown />
+              </div>
+            </div>
+            <p className="text">Launch</p>
+          </div>
+
+          <div className="icon-group">
+            <div className="icon-arrow">
+              <BiSupport />
+            </div>
+            <p className="text">Support</p>
+          </div>
+        </div>
       </div>
       <div className="twelve">
         <h2 className="h2-welcome">
@@ -70,7 +135,7 @@ export default function Welcome() {
           organisations.
         </p>
         <div className="arrow">
-        <FaArrowDown />
+          <FaArrowDown />
         </div>
       </div>
       <div
