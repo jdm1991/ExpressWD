@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import { LuSendHorizonal } from "react-icons/lu";
+
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -81,7 +83,8 @@ const ContactForm = () => {
           className="mt-1 p-2 block w-full rounded-md border border-gray-300 focus:outline-none focus:ring-blue-500 focus:border-blue-500"
         ></textarea>
       </div>
-      <button type="submit" className="px-6 py-3 text-base font-semibold text-white bg-blue-600 rounded-md hover:bg-blue-700 focus:outline-none focus:bg-blue-700">Send</button>
+      <button type="submit" className="flex px-4 py-2 text-base font-semibold text-white bg-[#255036] rounded-md hover:bg-green-900 focus:outline-none focus:bg-blue-700">Send <LuSendHorizonal className="mt-1 ml-1"/>
+</button>
     </form>
   );
 };
