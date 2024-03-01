@@ -2,8 +2,10 @@ import Head from "next/head";
 import About from "@/components/about";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
+import Image from "next/image";
 import { useState } from "react";
 import "@/app/globals.css";
+import "../styles/welcome.css";
 
 export default function Services() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -21,25 +23,19 @@ export default function Services() {
   return (
     <>
       <Header />
-      <section>
-        <section className="bg-white mb-10">
-          <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-            <div className="text-center">
-              <h4 className="fadeIn text-3xl font-bold leading-tight text-gray-900 sm:text-4xl xl:text-5xl font-pj mt-10">
-                "Crafting Digital Excellence, One Pixel at a Time."
-              </h4>
-            </div>
-          </div>
-        </section>
-       
+      <section className="relative pt-[15vh] h-[84vh] bg-[url('/Images/web1.jpg')] bg-cover bg-center overflow-hidden">
+        <div className="absolute inset-0 bg-black bg-opacity-70"></div>
+        <h4 className="relative text-center z-1 text-3xl font-bold leading-tight text-white sm:text-4xl xl:text-5xl mt-60">
+          "Crafting Digital Excellence, One Pixel at a Time."
+        </h4>
       </section>
+
       <section className="bg-[#255036] text-center">
         <div className="flex flex-col items-center">
-          {/* Web Site Design Section */}
           <div className="my-2">
             <button
               onClick={() => toggleSection("webDesign")}
-              className="text-[#ffcf40] bg-[#255036] hover:bg-[#1e4630] focus:outline-none focus:ring-2 focus:ring-[#ffcf40] font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center w-full"
+              className="text-[#ffcf40] bg-[#255036] hover:bg-[#1e4630] focus:outline-none focus:ring-2 focus:ring-[#ffcf40]  font-medium rounded-lg text-5xl px-5 py-2.5 text-center inline-flex items-center w-90"
             >
               Web Site Design
               <svg
@@ -60,7 +56,7 @@ export default function Services() {
               </svg>
             </button>
             {openSection === "webDesign" && (
-              <div className="mt-2 p-4 bg-white rounded-lg shadow-md text-gray-700">
+              <div className="mt-2 p-4 bg-white rounded-lg shadow-md text-gray-700 mx-8">
                 <p>
                   That’s more than any other local web design agency. We pride
                   ourselves on staying up to date with the latest web
@@ -103,11 +99,10 @@ export default function Services() {
           </div>
         </div>
         <div className="flex flex-col items-center">
-          {/* Web Site Design Section */}
           <div className="my-2">
             <button
               onClick={() => toggleSection("E-Commerce")}
-              className="text-[#ffcf40] bg-[#255036] hover:bg-[#1e4630] focus:outline-none focus:ring-2 focus:ring-[#ffcf40] font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center w-full"
+              className="text-[#ffcf40] bg-[#255036] hover:bg-[#1e4630] focus:outline-none focus:ring-2 focus:ring-[#ffcf40] font-medium rounded-lg text-5xl px-5 py-2.5 text-center inline-flex items-center w-90"
             >
               E-Commerce
               <svg
@@ -128,7 +123,7 @@ export default function Services() {
               </svg>
             </button>
             {openSection === "E-Commerce" && (
-              <div className="mt-2 p-4 bg-white rounded-lg shadow-md text-gray-700">
+              <div className="mt-2 p-4 bg-white rounded-lg shadow-md text-gray-700 mx-8">
                 <p>
                   Want to start selling online? Or maybe give your current
                   e-store a boost? We’re here to help! From setting up your
@@ -166,11 +161,10 @@ export default function Services() {
           </div>
         </div>
         <div className="flex flex-col items-center">
-          {/* Web Site Design Section */}
           <div className="my-2">
             <button
               onClick={() => toggleSection("hosting")}
-              className="text-[#ffcf40] bg-[#255036] hover:bg-[#1e4630] focus:outline-none focus:ring-2 focus:ring-[#ffcf40] font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center w-full"
+              className="text-[#ffcf40] bg-[#255036] hover:bg-[#1e4630] focus:outline-none focus:ring-2 focus:ring-[#ffcf40] font-medium rounded-lg text-5xl px-5 py-2.5 text-center inline-flex items-center w-90"
             >
               Hosting & Emails
               <svg
@@ -191,7 +185,7 @@ export default function Services() {
               </svg>
             </button>
             {openSection === "hosting" && (
-              <div className="mt-2 p-4 bg-white rounded-lg shadow-md text-gray-700">
+              <div className="mt-2 p-4 bg-white rounded-lg shadow-md text-gray-700 mx-8">
                 <h3>Website Hosting</h3>
                 <p>
                   Our packages are designed with flexibility in mind, ensuring
@@ -220,11 +214,10 @@ export default function Services() {
           </div>
         </div>
         <div className="flex flex-col items-center">
-          {/* Web Site Design Section */}
           <div className="my-2">
             <button
               onClick={() => toggleSection("support")}
-              className="text-[#ffcf40] bg-[#255036] hover:bg-[#1e4630] focus:outline-none focus:ring-2 focus:ring-[#ffcf40] font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center w-full"
+              className="text-[#ffcf40] bg-[#255036] hover:bg-[#1e4630] focus:outline-none focus:ring-2 focus:ring-[#ffcf40] font-medium rounded-lg text-5xl px-5 py-2.5 text-center inline-flex items-center w-90"
             >
               IT Support
               <svg
@@ -245,7 +238,7 @@ export default function Services() {
               </svg>
             </button>
             {openSection === "support" && (
-              <div className="mt-2 p-4 bg-white rounded-lg shadow-md text-gray-700">
+              <div className="mt-2 p-4 bg-white rounded-lg shadow-md text-gray-700 mx-8">
                 <p>
                   Looking for IT Support for your company? Our sister company
                   King’s Lynn IT Support can help.
@@ -262,11 +255,10 @@ export default function Services() {
           </div>
         </div>
         <div className="flex flex-col items-center">
-          {/* Web Site Design Section */}
           <div className="my-2">
             <button
               onClick={() => toggleSection("content")}
-              className="text-[#ffcf40] bg-[#255036] hover:bg-[#1e4630] focus:outline-none focus:ring-2 focus:ring-[#ffcf40] font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center w-full"
+              className="text-[#ffcf40] bg-[#255036] hover:bg-[#1e4630] focus:outline-none focus:ring-2 focus:ring-[#ffcf40] font-medium rounded-lg text-5xl px-5 py-2.5 text-center inline-flex items-center w-90"
             >
               Content Writing
               <svg
@@ -287,7 +279,7 @@ export default function Services() {
               </svg>
             </button>
             {openSection === "content" && (
-              <div className="mt-2 p-4 bg-white rounded-lg shadow-md text-gray-700">
+              <div className="mt-2 p-4 bg-white rounded-lg shadow-md text-gray-700 mx-8">
                 <p>
                   Getting professional content for your website has never been
                   easier. KLWD’s expert copywriters have over 10 years of

@@ -171,3 +171,14 @@ html, body {
 .fadeIn {
   animation: fadeIn 1s ease-in-out forwards;
 }
+
+
+.sectionWithOverlay::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: black;
+  opacity: 0.5; /* Adjust for desired darkness */
+  filter: brightness(50%); /* Adjust for desired brightness */
+  z-index: 1;
+}
