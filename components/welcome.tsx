@@ -63,7 +63,7 @@ export default function Welcome() {
           goals.
         </p>
         <button className="welcome-button">Let's talk</button>
-        <div className="icons absolute top-[55%] left-[70%] transform -translate-x-1/2 -translate-y-1/2 z-10 flex flex-col items-start gap-20 text-4xl">
+        <div className="icons absolute top-[55%] left-[70%] transform -translate-x-1/2 -translate-y-1/2 z--1 flex flex-col items-start gap-20 text-4xl">
           <div className="icon-group flex items-center gap-4 relative group">
             <div className="icon-arrow flex flex-col items-center">
               <FaPenFancy className="text-4xl text-current" />

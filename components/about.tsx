@@ -345,101 +345,92 @@ export default function About() {
       <section className="animate-fadeIn  text-center bg-[#255036] text-[#ffcf40]">
         <div className="grid grid-cols-3 gap-4 sm:text-4xl xl:text-4xl">
           <div className="animate-slideInLeft">
-            <h2 className="my-10 animate-bounce">Technology</h2>
-            <p className="xl:text-xl xl:p-10 lg:text-lg lg:p-8 md:text-base md:p-6 sm:text-sm sm:p-4 text-white p-5 font-extralight">
-              In my web design career, the adoption of a diverse and powerful
-              stack of technologies has been pivotal in creating solid, dynamic,
-              and visually appealing websites. HTML, CSS, and JavaScript form
-              the foundational trinity of my work, enabling the creation of
-              structured, stylish, and interactive web experiences. React, a
-              powerful JavaScript library, has revolutionized the way I build
-              user interfaces, offering a seamless and efficient way to develop
-              single-page applications with dynamic, responsive designs. Prisma
-              has streamlined my workflow with databases, acting as an ORM that
-              simplifies database management, allowing me to seamlessly
-              integrate complex functionalities with ease.<br></br>
-              <br></br> Tailwind CSS, a utility-first CSS framework, has
-              empowered me to rapidly style websites without leaving the HTML,
-              ensuring a faster design process and a more consistent UI.
-              Express, coupled with Node.js, forms the backbone of my
-              server-side development, enabling the creation of robust and
-              scalable web applications that can handle complex backend logic
-              effortlessly. MongoDB and PostgreSQL offer me the flexibility of
-              choosing between a NoSQL or SQL database depending on the project
-              requirements, ensuring optimal data storage and retrieval
-              functionalities.<br></br>
-              <br></br> Lastly, SASS has been a game-changer in writing more
-              maintainable, modular CSS code, with its powerful features like
-              variables, mixins, and nested rules that make styling complex
-              applications more streamlined. Together, these technologies have
-              not only enhanced my ability to deliver cutting-edge web solutions
-              but have also ensured that the websites I develop are secure,
-              responsive, and ahead of the curve, meeting the ever-evolving
-              demands of the digital age.
-            </p>
+            <div className="bg-white bg-opacity-10 p-5 ml-5 mt-4 rounded-3xl h-97-p">
+              <h2 className="mt-5">Technology</h2>
+              <p className="xl:text-xl xl:p-10 lg:text-lg lg:p-8 md:text-base md:p-6 sm:text-sm sm:p-4 text-white p-5 font-extralight">
+                In my web design career, leveraging a broad and potent tech
+                stack has been crucial for crafting robust, dynamic, and
+                visually striking websites. The core trio of HTML, CSS, and
+                JavaScript allows for structured, stylish, and interactive
+                online experiences. React enhances UI development with its
+                efficient approach to building dynamic single-page applications.
+                Prisma, as an ORM, streamlines database integration, simplifying
+                complex functionality incorporation. <br />
+                <br /> Tailwind CSS accelerates styling directly within HTML,
+                promoting rapid design and consistent UIs. Express and Node.js
+                underpin my server-side development, supporting scalable web
+                apps with sophisticated backend logic. MongoDB and PostgreSQL
+                provide the flexibility to choose the ideal database system,
+                optimizing data handling. SASS elevates CSS coding with its
+                advanced features, improving maintainability and streamlining
+                complex styling. These technologies collectively enhance my
+                delivery of advanced web solutions, ensuring security,
+                responsiveness, and innovation, aligning with the digital age's
+                demands.
+              </p>
+            </div>
           </div>
           <div className="animate-slideInUp">
-            <h2 className="my-10 animate-bounce">Design & Craft</h2>
-            <p className="xl:text-xl xl:p-10 lg:text-lg lg:p-8 md:text-base md:p-6 sm:text-sm sm:p-4 text-white px-5 font-extralight">
-              Our commitment to high-quality design and craftsmanship is evident
-              in every project we undertake, driven by a meticulous approach
-              that seamlessly blends aesthetics with functionality. This
-              philosophy ensures that each website we craft not only captivates
-              visually but also provides a flawless user experience. Central to
-              our design ethos is the strategic selection of cutting-edge
-              technologies and frameworks, chosen specifically for their ability
-              to elevate the performance, accessibility, and scalability of our
-              digital solutions. We pride ourselves on an unwavering attention
-              to detail—every line of code is crafted with precision, and each
-              design element is thoughtfully integrated to align with our
-              clients' branding and strategic objectives.<br></br>
-              <br></br> The foundation of our high-quality output lies in our
-              architectural and stylistic choices. Utilizing React, we develop
-              dynamic, responsive interfaces that actively engage users, while
-              Tailwind CSS enables us to implement modular designs that ensure
-              visual consistency across all devices. Our proficiency in SASS
-              facilitates the creation of complex, elegant styles efficiently,
-              making every page a testament to visual excellence. Beyond
-              aesthetics, our adoption of Express and Node.js for backend
-              development guarantees robust and reliable systems. Integrating
-              Prisma with MongoDB or PostgreSQL, we devise database solutions
-              that are not only effective but optimized for peak performance and
-              security. This comprehensive strategy underlines our ability to
-              deliver not just websites, but scalable digital ecosystems
-              designed to evolve with our clients’ expanding needs, embodying
-              our dedication to setting new standards in web design and
-              development.
-            </p>
+            <div className="bg-white bg-opacity-10 p-5 mt-4 rounded-3xl h-97-p ">
+              <h2 className="mt-5">Design & Craft</h2>
+              <p className="xl:text-xl xl:p-10 lg:text-lg lg:p-8 md:text-base md:p-6 sm:text-sm sm:p-4 text-white px-5 font-extralight">
+                Our passion for exceptional design and craftsmanship is manifest
+                in every endeavor, where aesthetics and functionality merge
+                seamlessly. This guiding philosophy ensures each website is not
+                just visually engaging but also offers a superior user
+                experience. Our design-centric approach involves a meticulous
+                selection of the latest technologies and frameworks, chosen for
+                their capacity to amplify the aesthetic appeal, user
+                accessibility, and scalability of our creations. <br />
+                <br /> Pride in our work is reflected in our painstaking
+                attention to detail—each design element is carefully curated to
+                resonate with our clients' branding and strategic vision. At the
+                heart of our quest for excellence are our architectural and
+                stylistic decisions, which prioritize visual harmony and user
+                engagement. By leveraging React, we engineer dynamic interfaces
+                that captivate users, while Tailwind CSS and SASS empower us to
+                craft elegant, cohesive designs that maintain visual integrity
+                across diverse platforms. <br />
+                <br /> Our commitment extends beyond mere aesthetics; it
+                encompasses the creation of robust, secure backend systems
+                through Express and Node.js, and the development of optimized
+                database solutions with Prisma, MongoDB, or PostgreSQL. This
+                integrated approach ensures we deliver not just visually
+                stunning websites but comprehensive digital experiences that are
+                scalable and designed to evolve alongside our clients'
+                aspirations. In doing so, we not only uphold but advance the
+                standards of web design and development, embodying our
+                dedication to unparalleled design and craftsmanship.
+              </p>
+            </div>
           </div>
           <div className="animate-slideInRight">
-            <h2 className="my-10 animate-bounce">On going support</h2>
-            <p className="xl:text-xl xl:p-10 lg:text-lg lg:p-8 md:text-base md:p-6 sm:text-sm sm:p-4 text-white px-5 font-extralight">
-              Our dedication to our clients extends far beyond the launch of
-              their website. We understand that in the fast-paced digital world,
-              ongoing support and maintenance are crucial to ensuring that a
-              website continues to perform at its best. Therefore, we offer
-              comprehensive support packages tailored to meet the unique needs
-              of each client. Whether it's implementing new features, updating
-              content, or ensuring that your site remains compatible with the
-              latest web standards and technologies, our team is committed to
-              providing the assistance you need. We believe in building
-              long-term relationships with our clients, acting not just as
-              service providers, but as trusted digital partners who are
-              invested in your success.<br></br>
-              <br></br> To this end, our support system is designed to be as
-              responsive and efficient as possible. From minor tweaks and
-              adjustments to major updates and overhauls, we are always just a
-              call or an email away. Our proactive approach means we regularly
-              monitor your site for any issues that may arise, ensuring that
-              your digital presence is always secure, up-to-date, and optimized
-              for search engines. Additionally, we offer training and resources
-              to empower you and your team to manage your site's content
-              confidently, providing you with the tools and knowledge to keep
-              your site dynamic and engaging. With our ongoing support, you can
-              rest assured that your website will continue to grow and adapt,
-              driving your business forward in the ever-evolving digital
-              landscape.
-            </p>
+            <div className="bg-white bg-opacity-10 p-5 mr-5 mt-4 rounded-3xl h-97-p">
+              <h2 className="mt-5">On-Going support</h2>
+              <p className="xl:text-xl xl:p-10 lg:text-lg lg:p-8 md:text-base md:p-6 sm:text-sm sm:p-4 text-white px-5 font-extralight">
+                Our commitment to our clients doesn't stop at their website's
+                launch. Recognizing the dynamic nature of the digital realm, we
+                emphasize the importance of continuous support and maintenance
+                to ensure peak website performance. Our support packages are
+                customized to cater to each client's specific requirements,
+                covering everything from new feature implementation and content
+                updates to maintaining compatibility with evolving web standards
+                and technologies. We aim to foster enduring relationships,
+                positioning ourselves not merely as service providers but as
+                committed digital allies dedicated to your ongoing success. <br /><br /> Our
+                support infrastructure is crafted for maximum responsiveness and
+                efficiency. Whether you need minor adjustments or significant
+                overhauls, our team is readily accessible through various
+                communication channels. We adopt a proactive stance, routinely
+                inspecting your site for potential issues to maintain its
+                security, relevance, and search engine optimization.
+                Furthermore, we equip you and your team with training and
+                resources for effective site content management, ensuring you
+                have the expertise to keep your site fresh and compelling. With
+                our sustained support, your website is set to thrive and evolve,
+                propelling your business forward in the digital age.
+              </p>
+            </div>
           </div>
         </div>
       </section>
