@@ -6,16 +6,16 @@ export default function About() {
       <section className="bg-white mb-10">
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="text-center">
-            <h2 className="text-3xl font-bold leading-tight text-gray-900 sm:text-4xl xl:text-5xl font-pj mt-10">
+            <h2 className="fadeIn text-3xl font-bold leading-tight text-gray-900 sm:text-4xl xl:text-5xl font-pj mt-10">
               ABOUT
             </h2>
           </div>
         </div>
       </section>
-      <section className="bg-[#255036] py-10">
+      <section className="bg-[#255036] py-10 fadeIn transition-opacity duration-700 ease-in opacity-0 hover:opacity-100">
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="text-center">
-            <h2 className="text-3xl font-extralight leading-tight text-[#ffcf40] sm:text-4xl xl:text-5xl font-pj mt-10">
+            <h2 className="fadeIn text-3xl font-extralight leading-tight text-[#ffcf40] sm:text-4xl xl:text-5xl font-pj mt-10 transition delay-150 duration-700 ease-in opacity-0 hover:opacity-100">
               "Setting the Standard for Professional Web Design"
             </h2>
           </div>
