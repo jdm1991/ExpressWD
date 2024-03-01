@@ -42,7 +42,7 @@ export default function Hero() {
           <p className="mt-4 text-2xl font-medium">Get a response within 24h</p>
         </div>
       </div>
-      <form onSubmit={handleSubmit} className="w-full max-w-lg mx-auto">
+      <form onSubmit={handleSubmit} className="w-full max-w-lg mx-auto mt-4">
         <div className="mb-4">
           <label
             htmlFor="name"
@@ -113,7 +113,7 @@ export default function Hero() {
         </div>
         <button
           type="submit"
-          className="flex px-4 py-2 text-base font-semibold text-white bg-[#255036] rounded hover:bg-green-900 focus:outline-none focus:bg-blue-700"
+          className="flex px-4 py-2 text-base font-semibold text-white bg-[#255036] rounded hover:bg-green-900 focus:outline-none focus:bg-blue-700 items-center justify-center w-full"
         >
           Send <LuSendHorizonal className="mt-1 ml-1" />
         </button>
