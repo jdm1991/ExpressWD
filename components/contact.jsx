@@ -37,7 +37,7 @@ export default function Hero() {
       <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div className="text-center">
           <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">
-            Get in touch
+            Get in touch!
           </h2>
           <p className="mt-4 text-2xl font-medium">Get a response within 24h</p>
         </div>
