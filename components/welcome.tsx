@@ -53,105 +53,109 @@ export default function Welcome() {
           className="design-image"
         />
         <h1 className="h1-welcome">
-          Let's create <br></br> something great <br></br> together
+          We Create <br /> Websites That <br /> Perform <br /> and Impress.
         </h1>
         <p className="p-welcome">
-          Choose our new modern web design company for cutting-edge designs that
-          prioritize user experience.<br></br> With a focus on customization,
-          performance, and ongoing support, we ensure your website stands out,
-          engages visitors, and drives success in today's competitive digital
-          world.
+          Revolutionize your online presence with our modern web design
+          services, where cutting-edge aesthetics meet unparalleled user
+          experience. Our commitment to customization and performance ensures
+          your website stands out, perfectly tailored to your unique vision and
+          goals.
         </p>
         <button className="welcome-button">Let's talk</button>
-        <div className="icons">
-          <div className="icon-group">
-            <div className="icon-arrow">
-              <FaPenFancy />
-              <div className="small-arrow">
-                <FaLongArrowAltDown />
+        <div className="icons absolute top-[55%] left-[70%] transform -translate-x-1/2 -translate-y-1/2 z-10 flex flex-col items-start gap-20 text-4xl">
+          <div className="icon-group flex items-center gap-4 relative group">
+            <div className="icon-arrow flex flex-col items-center">
+              <FaPenFancy className="text-4xl text-current" />
+              <div className="small-arrow absolute top-16">
+                <FaLongArrowAltDown className="text-5xl text-yellow-400"/>
               </div>
             </div>
-            <p className="text">Sign Up</p>
+            <p className="text-xl text-white">Sign Up</p>
           </div>
 
-          <div className="icon-group">
-            <div className="icon-arrow">
-              <FaSearch />
-              <div className="small-arrow">
-                <FaLongArrowAltDown />
+          <div className="icon-group flex items-center gap-4 relative group">
+            <div className="icon-arrow flex flex-col items-center">
+              <FaSearch className="text-4xl text-current" />
+              <div className="small-arrow absolute top-16">
+                <FaLongArrowAltDown className="text-5xl text-yellow-400"/>
               </div>
             </div>
-            <p className="text">Research</p>
+            <p className="text-xl text-white">Research</p>
           </div>
 
-          <div className="icon-group">
-            <div className="icon-arrow">
-              <IoCreateOutline />
-              <div className="small-arrow">
-                <FaLongArrowAltDown />
+          <div className="icon-group flex items-center gap-4 relative group">
+            <div className="icon-arrow flex flex-col items-center">
+              <IoCreateOutline className="text-4xl text-current" />
+              <div className="small-arrow absolute top-16">
+                <FaLongArrowAltDown className="text-5xl text-yellow-400"/>
               </div>
             </div>
-            <p className="text">Design</p>
+            <p className="text-xl text-white">Design</p>
           </div>
 
-          <div className="icon-group">
-            <div className="icon-arrow">
-              <IoBuildOutline />
-              <div className="small-arrow">
-                <FaLongArrowAltDown />
+          <div className="icon-group flex items-center gap-4 relative group">
+            <div className="icon-arrow flex flex-col items-center">
+              <IoBuildOutline className="text-4xl text-current" />
+              <div className="small-arrow absolute top-16">
+                <FaLongArrowAltDown className="text-5xl text-yellow-400"/>
               </div>
             </div>
-            <p className="text">Build</p>
+            <p className="text-xl text-white">Build</p>
           </div>
 
-          <div className="icon-group">
-            <div className="icon-arrow">
-              <MdOutlineRocketLaunch />
-              <div className="small-arrow">
-                <FaLongArrowAltDown />
+          <div className="icon-group flex items-center gap-4 relative group">
+            <div className="icon-arrow flex flex-col items-center">
+              <MdOutlineRocketLaunch className="text-4xl text-current" />
+              <div className="small-arrow absolute top-16">
+                <FaLongArrowAltDown className="text-5xl text-yellow-400"/>
               </div>
             </div>
-            <p className="text">Launch</p>
+            <p className="text-xl text-white">Launch</p>
           </div>
 
-          <div className="icon-group">
-            <div className="icon-arrow">
-              <BiSupport />
+          <div className="icon-group flex items-center gap-4 relative group">
+            <div className="icon-arrow flex flex-col items-center">
+              <BiSupport className="text-4xl text-current" />
             </div>
-            <p className="text">Support</p>
+            <p className="text-xl text-white">Support</p>
           </div>
         </div>
       </div>
-      <div className="twelve">
-        <h2 className="h2-welcome">
-          Need a website?
-          <div className="h2-sub">We design and develop</div>
-        </h2>
-        <hr className="hr-welcome"></hr>
-        <p className="what-we-do">
-          With 3 years of expertise, Express Web Designs wont let you down. We
-          pride ourselves on creating high-quality, cost-effective websites,
-          having collaborated with many satisfied clients.<br></br> We have
-          designed websites for a huge range of clients from small local
-          businesses, to blue chip companies, e-commerce websites and charity
-          organisations.
-        </p>
-        <div className="arrow">
-          <FaArrowDown />
+      <section className="text-center flex justify-center items-center">
+        <div className="relative bg-[#255036] text-[#ffcf40] h-[50vh] mb-8 w-full flex flex-col justify-center items-center">
+          <h2 className="py-4 text-5xl font-semibold text-white">
+            Need a website?
+            <span className="text-[#ffcf40] pl-4">We design and develop</span>
+          </h2>
+          <hr className="w-1/3 border-t border-white" />
+          <p className="w-3/5 px-4 py-4 mx-auto my-8 text-center text-2xl font-light border border-white rounded-lg text-black bg-white shadow-lg">
+            With 3 years of expertise, Express Web Designs won't let you down.
+            We pride ourselves on creating high-quality, cost-effective
+            websites, having collaborated with many satisfied clients.<br></br>
+            We have designed websites for a huge range of clients from small
+            local businesses, to blue chip companies, e-commerce websites and
+            charity organisations.
+          </p>
+          <div className="absolute bottom-5 left-1/2 transform -translate-x-1/2 text-[#ffcf40] text-6xl">
+            <FaArrowDown />
+          </div>
         </div>
-      </div>
+      </section>
+
       <div
         className={`working-with-us ${isVisible ? "animate-slide-up" : ""}`}
         ref={sectionRef}
       >
-        <div className="working-with-us">
-          <div className="h2-container">
-            <h2 className="h2-working">
-              Working with <p className="working-2">EWD</p>
+        <div className="working-with-us h-[70vh]">
+          <div className="h2-container grid justify-center">
+            <h2 className="h2-working inline-block justify-center py-0 px-0 mb-8 text-5xl font-semibold text-[#255036]">
+              Working with{" "}
+              <p className="working-2 inline-block text-[#ffcf40]">EWD</p>
             </h2>
           </div>
-          <div className="p-working-container">
-            <p className="p-working1">
+          <div className="p-working-container grid grid-cols-[2fr_1fr] grid-rows-[2fr_1fr] w-3/5 mx-auto justify-center gap-4 font-light text-lg h-[41vh]">
+            <p className="p-working1 w-3/5">
               Whether you’re starting a new business, thinking about a redesign
               or just need some help fixing your existing website, our team have
               the knowledge, expertise and experience to deliver a creative,
@@ -167,7 +171,7 @@ export default function Welcome() {
               Once your website is live, our support team are on-hand to ensure
               your website continues to perform. We offer monthly maintenance
               and support packages and are always at the end of the phone to
-              keep your website up to date.{" "}
+              keep your website up to date.
             </p>
             <p className="p-working4">
               Ready to get started or want to know more? Give us a call on
@@ -175,10 +179,11 @@ export default function Welcome() {
               Web Design.
             </p>
           </div>
-          <button className="quote">GET YOUR FREE QUOTE</button>
+          <button className="quote grid bg-[#255036] rounded-full text-[#ffcf40] font-semibold py-3 text-xl justify-center mx-auto mt-12">
+            GET YOUR FREE QUOTE
+          </button>
         </div>
       </div>
-      
     </>
   );
 }

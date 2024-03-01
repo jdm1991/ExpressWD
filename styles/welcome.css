@@ -59,11 +59,13 @@
 .small-arrow {
   position: absolute;
   top: 4rem;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
+  margin-right: 0.5rem;
   color: #ffcf40;
 }
 .text {
   margin-top: 0;
+  font-size: 2.8rem;
 }
 .h1-welcome {
   z-index: 1;
@@ -72,41 +74,69 @@
   left: 20%;
   transform: translate(-50%, -40%);
   color: white;
-  font-size: 4rem;
-  font-weight: 300;
+  font-size: 4.8rem;
+  font-weight: 600;
+  animation: popIn 0.8s ease-out forwards;
+  text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.2), 6px 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+@keyframes popIn {
+  0% {
+    transform: translate(-50%, -40%) scale(0.8);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(-50%, -40%) scale(1);
+    opacity: 1;
+  }
 }
 .p-welcome {
   z-index: 1;
   position: absolute;
   top: 75%;
-  left: 29%;
+  left: 27.2%;
   transform: translate(-50%, -60%);
   color: white;
-  font-size: 1.5rem;
-  font-weight: 300;
+  font-size: 1.2rem;
+  font-weight: 100;
   width: 40%;
   font-weight: 200;
+  margin-top: 1rem;
+  animation: popIn 0.8s ease-out forwards;
 }
+
 .welcome-button {
   z-index: 1;
   position: absolute;
   top: 90%;
-  left: 11.5%;
+  left: 11.6%;
+  width: 11rem;
   transform: translate(-50%, -60%);
-  color: #ffcf40;
+  color: rgb(255, 255, 255); /* White text */
+  text-shadow: -1px 0 rgb(0, 0, 0), 0 -1px rgb(5, 5, 5), 1px 0 rgb(0, 0, 0),
+    0 1px rgb(0, 0, 0);
   font-size: 1.5rem;
-  font-weight: 300;
-  background-color: #255036;
+  font-weight: 500;
+  background-color: rgb(16, 39, 210);
   border-radius: 20px;
   padding: 0.5rem;
-  font-weight: 500;
+  border: 0.5px solid gold;
 }
+
+.welcome-button:hover {
+  background-color: rgb(13, 159, 8); /* Adjusted background color for hover */
+  transform: translate(-50%, -60%) scale(1.1); /* Maintain translation and apply scaling */
+  color: white;
+}
+
 .twelve {
+  position: relative; /* Add this line */
   background: #255036;
-  height: 43vh;
+  height: 50vh; /* Change from a fixed height to auto to accommodate content */
   color: #ffcf40;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
+
 .h2-welcome {
   display: flex;
   justify-content: center;
@@ -124,11 +154,12 @@
   margin: 0 auto;
   border: white 1px solid;
 }
+
 .what-we-do {
   display: flex;
   justify-content: center;
-  padding: 1rem 4rem 4rem 4rem;
-  margin: 2rem 10rem 0rem 10rem;
+  padding: 1rem 4rem 1rem 4rem;
+  margin: 2rem 10rem 2rem 10rem;
   text-align: center;
   font-size: 1.5rem;
   font-weight: 200;
@@ -140,13 +171,13 @@
 }
 .arrow {
   position: absolute;
-  top: 127%;
+  bottom: 5%; /* Adjust this value to position the arrow below the .twelve div */
   left: 50%;
-  transform: translate(-50%, -60%);
+  transform: translateX(-50%); /* Centers the arrow horizontally */
   color: #ffcf40;
   font-size: 3rem;
   font-weight: 300;
-  margin-top: 3rem;
+  /* Removed margin-top as it's now positioned absolutely relative to its nearest positioned ancestor */
 }
 
 @keyframes slideUp {
@@ -173,7 +204,7 @@
 .h2-working {
   display: inline; /* or inline-block */
   justify-content: center;
-  padding: 1rem 0rem 3rem 0rem;
+  padding: 0rem 0rem 2rem 0rem;
   font-size: 3rem;
   font-weight: 500;
   color: #255036;
@@ -189,9 +220,10 @@
   width: 60%;
   margin: 0 auto;
   justify-content: center;
-  gap: 0rem;
+  gap: 1rem;
   font-weight: 200;
   font-size: 1.1rem;
+  height: 41vh;
 }
 .p-working1,
 .p-working3 {
@@ -218,4 +250,3 @@
   font-weight: 500;
   padding-top: 1rem;
 }
-
